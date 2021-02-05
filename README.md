@@ -40,24 +40,28 @@ These wireframes will help visulaise how different features would appear on diff
 ### SURFACE
 The surface plane is the final plane of user centered design and focuses on the look of the product.
 #### Colour scheme
-#### Typography
-#### Imagery
+As previously mentioned, I wanted the product to have a clean, simple and professional aesthetic. To achieve this, I decided to keep the colour scheme as minimal as possible using only three colours.
+* Rich Black (#0A0A0A) - This colour was used as the background colour for all pages.
+* White (#FAFAFA) - This colour was used mainly for text, certain headings and navigation links.
+* Light Steel Blue (#AABDD0) - This colour was used as an accent colour for borders, as well as certain headings and buttons.
 
+insert colour palette
+#### Typography
+For the sake of simplicity and to allow for a cohesive product, I decided to use Cabin across the whole site, with some differentiation in text transform. In the case Cabin was not accessible, sans serif was set as a fall back font.
+#### Imagery
+Images are important to capture users and keep them engaged. To personalise the product, the logo image allows the user to know the developer without meeting them. Images can be also seen in the cards on projects page. Minimal imagery adds to the aesthetic of the site.
 
 ## Features
+Here are the features that appear in the site.
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Navigation bar - Implemented using Bootstrap, Allows the user to navigate through the site and appears on every page. 
+- Footer - This appears on every page and includes a short statement about the site, a download link to a traditional CV and social links.
+- Progress bar - Implemented using Bootstrap, this appears on the 'about' page in the skills section.
+- Cards - Cards with image-tops appear on the projects page for a visual aid to each project. This was implemented using Bootstrap.
+- Contact form - A form appears on the contact page, implemented using Bootstrap, to evoke a call to action.
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
 
 ## Technologies Used
 
@@ -65,6 +69,22 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
+- [Balsamiq](https://balsamiq.com)
+    - This software was used to create wireframes of the proposed pages of the site.
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+   - This is the main language used to create the site.
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+   - This is the main language used to style the site.
+- [GitHub](https://github.com)
+   - This is a platform used by all developers and a directory to store code that was been pushed from GitPod.
+- [GitPod](https://gitpod.io/workspaces/)
+  - This is an online editor used to create and edit code.
+- [Bootstrap v4.5](https://getbootstrap.com/)
+  - This is a framework library that consists of pre-written code, and is used to assist in the creation of responsive web development.
+- [Google Fonts](https://fonts.google.com/) 
+  - This is used to import Typography.
+- [Font Awesome](https://fontawesome.com)
+  - This is used to add icons to the code
 
 
 ## Testing
