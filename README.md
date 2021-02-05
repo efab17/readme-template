@@ -1,17 +1,48 @@
-# Your Project's Name
+# Milestone Project 1: Digital CV
 
-One or two paragraphs providing an overview of your project.
+This User centric front-end project was completed as part of the full stack developer course with Code Institute. It was the first opportunity to showcase the technical skills and technologies I have learnt thus far. This front-end digital CV was created using HTML5 and CSS as well as Bootstrap libraries.
 
-Essentially, this part is your sales pitch.
  
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+User Experience Design is the process of creating a product that is useful, usuable and provides value to the targeted user. It follows a process known as User Centered design. This process consists of 5 design planes that essentially perform as the 'make-up' of a valuable product.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+### STRATEGY 
+The aim of this project is to build an online portfolio that can be later updated as I strengthen my technical skills whilst on the course. Making a career switch, an online portfolio felt the most obvious place to start. This is being built with potential employers and recruiters in mind, as well as fellow developers that may want to collaborate on future projects. My strategy is to market myself and showcase my skills building a product that is useful, valuable, responsive and follows the mobile first design approach.
+My intention is to build a product that has a clean,classic and professional aesthetic.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+### SCOPE
+User Stories:
+* As an employer or recruiter, a key point of intrest would be the skills and technologies the devloper possess, previous work the developer has completed, as well as educational background information and possibly a traditonal CV with contact information.
+* As a future collaborator my main focus would be to grasp a feel for the devlopers creativity, a showcase of the projects they've worked on and contact details to get in touch.
+* As a client my main intrests are previous work completed by the developer, contact details and possible testimonials from previous clients that can vouch for the developers customer service etc. 
+
+### STRUCTURE
+I want the structure of this product to be as simiple as possible but still effective. I have identified 5 key pages that I feel will best relay the information necessary.
+* Home - This is the first page the user encounters with a brief introduction to what the product is and navigation links to other pages as well as social links.
+* About - The About page holds Information regarding the devloper, work experience, possibly educational background and skillset.
+* Projects - The project page includes the most recent work of the developer.
+* Contact- The contact page will consist of a form that will stimulate a call to action.
+* Download- This will be a link to a pdf of the devlopers traditonal CV.
+
+Here is a site map of the product:
+![Image of site map] 
+(assets/wireframes/Site-map.pdf
+README.md)
+### SKELETON
+To continue with the planning process, wireframes were created of each page to get a basic feel of the layout and elements featured. Using a software called Balsamiq, suggested by Code Institute, low-fidelity mock-ups were generated to include wiresframes of each page across three different devices.
+These wireframes will help visulaise how different features would appear on different screen sizes before implementing any code.
+* HOME PAGE LINK 
+* ABOUT PAGE link
+* PROJECTS PAGE link 
+* CONTACT PAGE link
+
+### SURFACE
+The surface plane is the final plane of user centered design and focuses on the look of the product.
+#### Colour scheme
+#### Typography
+#### Imagery
+
 
 ## Features
 
