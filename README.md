@@ -26,14 +26,14 @@ I want the structure of this product to be as simiple as possible but still effe
 * Download- This will be a link to a pdf of the devlopers traditonal CV.
 
 Here is a site map of the product:
-! [Image of site map](workspace/readme-template/assets/wireframes/Site-map.pdf)
+![Image of site map](assets/wireframes/Site-map.pdf)
 ### SKELETON
-To continue with the planning process, wireframes were created of each page to get a basic feel of the layout and elements featured. Using a software called Balsamiq, suggested by Code Institute, low-fidelity mock-ups were generated to include wiresframes of each page across three different devices.
+To continue with the planning process, wireframes were created of each page to get a basic feel of the layout and elements featured. Using a software called Balsamiq, suggested by Code Institute, low-fidelity mock-ups were generated to include wireframes of each page across three different devices.
 These wireframes will help visulaise how different features would appear on different screen sizes before implementing any code.
-* HOME PAGE LINK 
-* ABOUT PAGE link
-* PROJECTS PAGE link 
-* CONTACT PAGE link
+* [HOME PAGE](assets/wireframes/home.pdf)
+* [ABOUT PAGE](assets/wireframes/about.pdf)
+* [PROJECTS PAGE](assets/wireframes/projects.pdf)
+* [CONTACT PAGE](assets/wireframes/contact.pdf)
 
 ### SURFACE
 The surface plane is the final plane of user centered design and focuses on the look of the product.
@@ -43,7 +43,7 @@ As previously mentioned, I wanted the product to have a clean, simple and profes
 * White (#FAFAFA) - This colour was used mainly for text, certain headings and navigation links.
 * Light Steel Blue (#AABDD0) - This colour was used as an accent colour for borders, as well as certain headings and buttons.
 
-![Colour Palette](/workspace/readme-template/assets/images/colour-p.pdf)
+![Colour Palette](assets/images/colour-p.pdf)
 #### Typography
 For the sake of simplicity and to allow for a cohesive product, I decided to use Cabin across the whole site, with some differentiation in text transform. In the case Cabin was not accessible, sans serif was set as a fall back font.
 #### Imagery
@@ -101,6 +101,17 @@ All the technologies used are listed below:
 ### Bugs
 Whilst building the site these are the bugs I encountered and how I went about fixing them:
 
+- The navigation bar would overlap my name tag/logo. To rectify this I used Bootstraps responsive navigation and styled the margin-left to auto.
+- When viewing the site in mobile view, the footer was overlapping the content. To fix this I added media queries and mad the position of the footer relative.
+- On the Projects page, the cards all had different heights. This was amended by making all the card images the same height and width and then using a height calculation.
+
+### Known Bugs 
+
+Whilst some bugs could be easily resolved, some needed more time to figure out but couldn't be done before submisson due to time.
+
+- The name tag/logo was due to appear in the top left corner but was hidden when the Navigation bar was made responsive.
+- The footer on the projects page overlaps the content on screens 992px and up.
+
 
 ## Deployment
 
@@ -108,15 +119,23 @@ This project was deployed to GitHub pages, using the following steps.
 1. After all the code was written on GitPod it was pushed to my repository on GitHub.
 2. On the project repository page, the 'settings' option was located.
 3. When the 'settings' option was clicked, I scrolled down until I reached a section which read 'GitHub Pages'
-4. On this section it had a drop down menu to select a branch. I clicked on this menu and selected the option 'master' clicked save.
+4. On this section it had a drop down menu to select a branch. I clicked on this menu and selected the option 'master' and clicked save.
 5. After saving, I refreshed the page and scrolled backed down to the 'GitHub Pages' section, where a link to my project appeared.
+
+To run locally:
+1. On the project repository page there is a 'Code' drop down menu.
+2. It gives the option to Clone which provides a url link that allows the project to be worked on without tampering with the original.
+3. Or a Download zip file that can be downloaded onto your respective  work station.
 
 
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+All content was written by the developer.
+
+### Code
+Most of the code was obtained from Bootstrap's library. This was used mostly for responsive elements i.e. contact form, nav bar etc.
 
 ### Media
 - All images used on the projects page was obtained from google images. The direct sources are linked below.
@@ -126,6 +145,8 @@ This project was deployed to GitHub pages, using the following steps.
 4. [Digital Cookbook](https://www.jesselanewellness.com/healthy-homemade-soups-sandwiches/)
 
 The background image on the About Page belongs to the developer.
+
+Inspiration was drawn from [Apple](https://www.apple.com)
 
 ### Acknowledgements
 
