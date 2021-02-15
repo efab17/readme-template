@@ -26,9 +26,7 @@ I want the structure of this product to be as simiple as possible but still effe
 * Download- This will be a link to a pdf of the devlopers traditonal CV.
 
 Here is a site map of the product:
-![Image of site map] 
-(assets/wireframes/Site-map.pdf
-README.md)
+! [Image of site map](workspace/readme-template/assets/wireframes/Site-map.pdf)
 ### SKELETON
 To continue with the planning process, wireframes were created of each page to get a basic feel of the layout and elements featured. Using a software called Balsamiq, suggested by Code Institute, low-fidelity mock-ups were generated to include wiresframes of each page across three different devices.
 These wireframes will help visulaise how different features would appear on different screen sizes before implementing any code.
@@ -45,7 +43,7 @@ As previously mentioned, I wanted the product to have a clean, simple and profes
 * White (#FAFAFA) - This colour was used mainly for text, certain headings and navigation links.
 * Light Steel Blue (#AABDD0) - This colour was used as an accent colour for borders, as well as certain headings and buttons.
 
-insert colour palette
+![Colour Palette](/workspace/readme-template/assets/images/colour-p.pdf)
 #### Typography
 For the sake of simplicity and to allow for a cohesive product, I decided to use Cabin across the whole site, with some differentiation in text transform. In the case Cabin was not accessible, sans serif was set as a fall back font.
 #### Imagery
@@ -65,7 +63,7 @@ Here are the features that appear in the site.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+All the technologies used are listed below:
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
@@ -88,35 +86,31 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 
 ## Testing
+- All HTML code was tested using [W3C HTML Validator](https://validator.w3.org/)
+- All CSS styling was tested using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### User stories
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+1. As an employer or recruiter, a key point of intrest would be the skills and technologies the devloper possess, previous work the developer has completed, as well as educational background information and possibly a traditonal CV with contact information.
+ - As soon as an employer or recruiter visits the site, the footer gives a snippet of the devlopers skills. Going on to the About and Project pages will give further insight into the devlopers skills and educational background. A traditional CV is available via the download page in the navigation bar and the download icon in the footer. 
+2. As a future collaborator my main focus would be to grasp a feel for the devlopers creativity, a showcase of the projects they've worked on and contact details to get in touch.
+ - The Projects page fulfils the needs of a future collaborator with external links to each project to further grasp the developers creatvity levels. The contact page evokes a call-to-action with a form ready to be filled out. Social links are also available via links in the footer.
+3. As a client my main intrests are previous work completed by the developer, contact details and possible testimonials from previous clients that can vouch for the developers customer service etc. 
+ - As a client, the projects page fulfils the needs and questions. Contact details are available via the contact page and socials links in the footer. Although testimonals aren't seen on the site, the social links, especially linkedin, is a great way to see the developers reliabilty and endorsements.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+### Bugs
+Whilst building the site these are the bugs I encountered and how I went about fixing them:
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This project was deployed to GitHub pages, using the following steps.
+1. After all the code was written on GitPod it was pushed to my repository on GitHub.
+2. On the project repository page, the 'settings' option was located.
+3. When the 'settings' option was clicked, I scrolled down until I reached a section which read 'GitHub Pages'
+4. On this section it had a drop down menu to select a branch. I clicked on this menu and selected the option 'master' clicked save.
+5. After saving, I refreshed the page and scrolled backed down to the 'GitHub Pages' section, where a link to my project appeared.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
 
 ## Credits
@@ -125,8 +119,16 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+- All images used on the projects page was obtained from google images. The direct sources are linked below.
+1. [Gym weights](https://www.absolute-snow.co.uk/S/Training__Fitness_Aids/Weights_Dumbbells__Kettlebells(1250).aspx)
+2. [Thought bubble](https://www.pinterest.co.uk/pin/532128512200427192/)
+3. [Digital CV](https://digitalmarketinginstitute.com/blog/digital-marketing-cv-every-recruiters-dreams)
+4. [Digital Cookbook](https://www.jesselanewellness.com/healthy-homemade-soups-sandwiches/)
+
+The background image on the About Page belongs to the developer.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- Thank you to  my mentor for all his help on my first project.
+- Thank you to the slack community!
+- Thank you to student support for answering my many doubts and questions.
